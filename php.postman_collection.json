@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "590a591a-9d55-439a-b68c-da7d018a1acc",
+		"name": "php",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://192.168.1.50/getSTKDES.php?stkcod=12345678",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Data",
+						"value": "json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/getSTKDES.php?stkcod=12345",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"getSTKDES.php"
+					],
+					"query": [
+						{
+							"key": "stkcod",
+							"value": "12345"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.50/getSTKDES.php?stkcod=12345678",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Data",
+						"value": "json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://192.168.1.50/getSTKDES.php?stkcod=12345678",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"50"
+					],
+					"path": [
+						"getSTKDES.php"
+					],
+					"query": [
+						{
+							"key": "stkcod",
+							"value": "12345678"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

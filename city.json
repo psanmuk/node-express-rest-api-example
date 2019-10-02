@@ -1,0 +1,19 @@
+[{
+    "id": 707860,
+    "name": "Hurzuf",
+    "country": "UA",
+    "coord": {
+        "lon": 34.283333,
+        "lat": 44.549999
+    }
+},
+{
+    "id": 1,
+    "name": "Bangkok",
+    "country": "TH",
+    "coord": {
+        "lon": 105.283333,
+        "lat": 44.549999
+    }
+}
+]
